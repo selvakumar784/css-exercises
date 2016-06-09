@@ -1,0 +1,712 @@
+.top {
+  height: 60px;
+  width: 1280px;
+  background-color: #384349;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  color: white;
+}
+
+.logoSection {
+  height: 60px;
+  width: 100px;
+  background-color: #44ADC4;
+  position: absolute;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  font-size: 35px;
+  color: white;
+}
+
+.topMenu {
+  position: absolute;
+  top: 20px;
+  width: 270px;
+  height: 20px;
+  left: 100px;
+}
+
+.topMenuItems {
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  border-right: 1px solid gray;
+}
+
+.topMenuItems p {
+  position: absolute;
+  left: 25px;
+  text-align: center;
+  top: -10px;
+  color: gray;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.hLine {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 45px;
+  border-bottom: 2px solid #44ADC4;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+
+.newTicket {
+  border-radius: 500px;
+  width: 100px;
+  height: 25px;
+  position: absolute;
+  left: 390px;
+  top: 15px;
+  border: 2px solid #F17A68;
+  background-color: #F17A68;
+}
+
+.ticketIcon {
+  position: absolute;
+  top: 3px;
+  float: right;
+  right: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.newTicket p {
+  position: absolute;
+  top: -3px;
+  left: 8px;
+  color: white;
+  font-family: Verdana;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.topIconsSection {
+  position: absolute;
+  float: right;
+  right: 0px;
+  top: 20px;
+  width: 280px;
+  height: 20px;
+}
+
+.topIcon {
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  border-right: 1px solid gray;
+}
+
+.search {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  font-size: 15px;
+  color: gray;
+}
+
+.settings {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  font-size: 15px;
+  color: gray;
+}
+
+.help {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  font-size: 15px;
+  color: gray;
+}
+
+.signout {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  font-size: 15px;
+  color: gray;
+}
+
+.left {
+  height: 700px;
+  width: 220px;
+  top: 60px;
+  border-right: 2px solid #F5F5F7;
+  background-color: white;
+  float: left;
+  margin-left: -8px;
+  position: absolute;
+}
+
+.browse p{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-family: Verdana;
+  font-size: 12px;
+  font-variant: bold;
+  color: gray;
+  letter-spacing: 1;
+}
+
+.browseItems {
+  position: absolute;
+  top: 65px;
+  width: 170px;
+  height: 250px;
+  left: 25px;
+  border-bottom: 2px solid #F5F5F7;;
+}
+
+.support {
+  position: absolute;
+  top: 10px;
+  width: 170px;
+  height: 150px;
+  color: #44ADC4;
+}
+
+.support p {
+  top: -20px;
+  position: absolute;
+  font-family: Verdana;
+  font-size: 14px;
+  color: #44ADC4;
+}
+
+.supportItems {
+  top: 30px;
+  position: relative;
+  left: 15px;
+  height: 25px;
+  width: 155px;
+}
+
+.supportItems p {
+  position: absolute;
+  left: 10px;
+  font-family: Verdana;
+  font-size: 12px;
+  color: gray;
+}
+
+.browseLabel {
+  position: relative;
+  top: 160px;
+  width: 170px;
+  height: 30px;
+  color: gray;
+}
+
+.browseLabel p {
+  top: -20px;
+  position: absolute;
+  font-family: Verdana;
+  font-size: 14px;
+  color: gray;
+}
+
+.recentActivity p {
+  position: absolute;
+  top: 325px;
+  left: 25px;
+  font-family: Verdana;
+  font-size: 12px;
+  font-variant: bold;
+  color: gray;
+  letter-spacing: 1;
+}
+
+.recent {
+  position: absolute;
+  top: 370px;
+  width: 170px;
+  left: 25px;
+  height: 320px;
+}
+
+.activities {
+  width: 170px;
+  height: 60px;
+  position: relative;
+}
+
+.userCircle {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #CFD0D1;
+  position: relative;
+  float: left;
+  top: 5px;
+}
+
+.activityContent {
+  width: 140px;
+  height: 50px;
+  left: 25px;
+  position: relative;
+}
+
+.activityContent p {
+  position: absolute;
+  color: gray;
+  font-family: Verdana;
+  font-size: 10px;
+  left: 10px;
+}
+
+.middle {
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  float: left;
+  left: 220px;
+  top: 60px;
+  border-right: 2px solid #F5F5F7;
+}
+
+.header {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  border-bottom: 2px solid #F5F5F7;
+}
+
+.headerIconsSection{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+.headerNote {
+  position: absolute;
+  left: 10px;
+  font-size: 25px;
+  color: gray;
+}
+
+.headerFlag {
+  position: absolute;
+  left: 45px;
+  font-size: 25px;
+  color: green;
+}
+
+.headerUser {
+  position: absolute;
+  left: 80px;
+  font-size: 25px;
+  color: gray;
+}
+
+.headerTag {
+  position: absolute;
+  left: 115px;
+  font-size: 25px;
+  color: gray;
+}
+
+.headerTrash {
+  position: absolute;
+  left: 140px;
+  font-size: 25px;
+  color: gray;
+}
+
+.displayCategoriesSection {
+  position: absolute;
+  float: right;
+  top: 30px;
+  right: 30px;
+  width: 220px;
+  height: 40px;
+}
+
+.categoryDropdown {
+  position: absolute;
+  float: right;
+  right: 0px;
+  width: 170px;
+  height: 30px;
+}
+
+.displayCategoriesSection .categoryDropdown p {
+  font-family: Verdana;
+  color: black;
+  position: absolute;
+  left: 15px;
+  font-size: 12px;
+}
+
+.displayCategoriesSection p {
+  font-family: Verdana;
+  color: gray;
+  position: absolute;
+  font-size: 12px;
+}
+
+.downIcon {
+  position: absolute;
+  float: right;
+  right: 10px;
+  top: 10px;
+  font-size: 15px;
+  color: black
+}
+
+.dropDownTag {
+  border-radius: 10px;
+  position: absolute;
+  top: 80px;
+  left: 380px;
+  width: 150px;
+  height: 120px;
+  background-color: #384349;
+  opacity: 0.8;
+}
+
+.dropDownTag:after {
+  border-right: 20px transparent solid;
+  border-left: 20px transparent solid;
+  border-bottom: 12px #384349 solid;
+  content: '';
+  height: 0;
+  float: right;
+  left: 55px;
+  position: absolute;
+  top: -12px;
+  width: 0;
+}
+
+.dropDownTag p {
+  position: relative;
+  left: 30px;
+  color: gray;
+  font-size: 8px;
+  font-family: Verdana;
+}
+
+.ticketContent {
+  position: relative;
+  top: 100px;
+  left: 1px;
+  width: 598px;
+  height: 60px;
+  border-bottom: 2px solid #F5F5F7;
+}
+
+.userSection{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.ticketTime {
+  position: absolute;
+  top: 15px;
+  float: right;
+  right: 20px;
+  width: 50px;
+  height: 30px;
+}
+
+.ticketTime p {
+  position: relative;
+  color: gray;
+  top:-5px;
+  font-size: 9px;
+  font-family: Verdana;
+  float: right;
+  right: 0px;
+  line-height: 0.5px;
+}
+
+.ticketTitleSection {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 480px;
+  height: 40px;
+}
+
+.ticketTitleSection p {
+  position: relative;
+  color: gray;
+  left: 10px;
+  font-size: 10px;
+  font-family: Verdana;
+  float: left;
+  right: 0px;
+  line-height: 0.5px;
+}
+
+.ticketTag {
+  border-radius: 500px;
+  width: 80px;
+  height: 10px;
+  top: 25px;
+  left: 5px;
+  position: absolute;
+  background-color: #7EB6B7;
+}
+
+.ticketTag p {
+  top: -3px;
+  color: white;
+  float: left;
+  left: 5px;
+  position: absolute;
+  font-size: 7px;
+  font-family: Verdana;
+}
+
+.right {
+  height: 700px;
+  width: 460px;
+  position: absolute;
+  float: left;
+  left: 820px;
+  top: 60px;
+}
+
+.ticketDescriptionSection {
+  height: 200px;
+  width: 460px;
+  position: absolute;
+  background-color:  #ED8E7A;
+}
+
+.ticketDescription {
+  height: 130px;
+  width: 440px;
+  left: 10px;
+  position: absolute;
+  background-color:  #ED8E7A;
+}
+
+.ticketDescription p {
+  font-family: Verdana;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.ticketPoster {
+  top: 140px;
+  height: 40px;
+  width: 440px;
+  left: 10px;
+  position: absolute;
+  background-color:  #ED8E7A;
+}
+
+.ticketPosterName p {
+  position: absolute;
+  top: -5px;
+  left: 60px;
+  color: white;
+  font-family: Verdana;
+  font-size: 10px;
+}
+
+.ticketPostedDate {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  color: gray;
+  font-family: Verdana;
+  font-size: 10px;
+}
+
+.ticketId {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  color: gray;
+  font-family: Verdana;
+  font-size: 10px;
+}
+
+.discussionSection {
+  height: 270px;
+  width: 460px;
+  top: 220px;
+  position: absolute;
+}
+
+.commentSection {
+  height: 60px;
+  width: 460px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.commentContent {
+  border-radius: 5px;
+  height: 60px;
+  width: 350px;
+  top: 30px;
+  left: 30px;
+  position: absolute;
+  background-color: #F5F5F7;
+}
+
+.commentContent:after {
+  border-bottom: 20px transparent solid;
+  border-left: 12px #F5F5F7 solid;
+  border-top: 20px transparent solid;
+  content: '';
+  height: 0;
+  float: right;
+  left: 350px;
+  position: absolute;
+  top: 10px;
+  width: 0;
+}
+
+.commentContent p {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: gray;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+.commentUser {
+  height: 60px;
+  width: 50px;
+  top: 20px;
+  left: 400px;
+  position: absolute;
+}
+
+.replyCommentContent {
+  border-radius: 5px;
+  height: 60px;
+  width: 350px;
+  top: 30px;
+  left: 80px;
+  position: absolute;
+  background-color: #BEFAE5;
+}
+
+.replyCommentContent:before {
+  border-bottom: 20px transparent solid;
+  border-right: 12px #BEFAE5 solid;
+  border-top: 20px transparent solid;
+  content: '';
+  height: 0;
+  float: left;
+  left: -10px;
+  position: absolute;
+  top: 10px;
+  width: 0;
+}
+
+.replyCommentContent p {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: gray;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+.replyCommentUser {
+  height: 60px;
+  width: 50px;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+}
+
+.responseBox {
+  border-radius: 5px;
+  width: 420px;
+  height: 140px;
+  position: absolute;
+  left: 20px;
+  top: 500px;
+  border: 2px solid #F5F5F7;
+}
+
+.responseOptions {
+  width: 420px;
+  height: 40px;
+  position: absolute;
+  top: 99px;
+  background-color: #F5F5F7;
+}
+
+.responseBox p {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 12px;
+  font-family: Verdana;
+  font-style: italic;
+  color: gray;
+}
+
+.responseOptionsIconsSection {
+  position: absolute;
+  float: left;
+  top: 10px;
+  width: 100px;
+  height: 20px;
+}
+
+.responseOptionsIconSection {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-right: 1px solid gray;
+}
+
+.responseOptionsIcon {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+.sendButton {
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  top: 1px;
+  width: 80px;
+  height: 40px;
+  float: right;
+  right: 0px;
+  background-color: #384349;
+}
+
+.sendIcon {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  color: white;
+  font-size: 20px;
+}
