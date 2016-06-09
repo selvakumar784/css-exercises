@@ -1,0 +1,765 @@
+.left {
+  height: 765px;
+  width: 148px;
+  background-color: #262A2A;
+  float: left;
+  margin-top: -8px;
+  margin-left: -8px;
+  position: relative;
+}
+
+.searchText {
+  height: 60px;
+  width: 148px;
+  background-color: #2AB693;
+  text-align: center;
+  position: absolute;
+
+}
+
+.searchText p{
+  position: absolute;
+  color: white;
+  top: 10px;
+  left: 30px;
+  font-size: 10;
+  font-family: Verdana;
+  font-style: italic;
+}
+
+.searchIcon {
+  position: absolute;
+  float: right;
+  right: 30px;
+  top: 3px;
+  color: white;
+  font-size: 14;
+}
+
+.hline1 {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 88px;
+  border-top: 2px solid white;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 18px;
+  left: 30px;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+}
+
+.menu p {
+  color: #40484B;
+}
+
+.main p {
+  position: relative;
+  bottom: 7px;
+  font-family: Verdana;
+  font-size: 11px;
+  left: 10px;
+  top: 10px;
+}
+
+.label {
+  height: 25px;
+  width: 140px;
+  position: relative;
+  top: 60px;
+  left: 8px;
+  color: white;
+}
+
+.label p {
+  position: relative;
+  bottom: 7px;
+  font-family: Verdana;
+  font-size: 12px;
+  left: 10px;
+  color: white;
+}
+
+.mainlabel {
+  height: 25px;
+  width: 140px;
+  position: relative;
+  top: 60px;
+  left: 8px;
+  color: white;
+}
+
+.mainlabel p {
+  position: relative;
+  bottom: 7px;
+  font-family: Verdana;
+  font-size: 12px;
+  left: 10px;
+  color: white;
+}
+
+.discover {
+  height: 30px;
+  width: 148px;
+  background-color:   #2D3740;
+  margin-left: -8px;
+  position: absolute;
+  top: 45px;
+}
+
+.discover p {
+  position: relative;
+  font-family: Verdana;
+  font-size: 12px;
+  top: -5px;
+  left: 40px;
+  color: white;
+}
+
+.mapPin {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  color: white;
+}
+
+.hotelNotification {
+  border-radius: 10%;
+  width: 15px;
+  height: 15px;
+  border: 2px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font: 12px Verdana;
+  position: absolute;
+  float: right;
+  right: 20px;
+  bottom: 16px;
+}
+
+.recent p {
+  position: relative;
+  bottom: 7px;
+  font-family: Verdana;
+  font-size: 11px;
+  left: 15px;
+  top: 280px;
+  color: #40484B;
+}
+
+.recentlabel {
+  height: 25px;
+  width: 140px;
+  position: relative;
+  top: 290px;
+  left: 10px;
+  color: white;
+}
+
+.recentlabel p {
+  position: relative;
+  bottom: 7px;
+  font-family: Verdana;
+  font-size: 12px;
+  left: 10px;
+  color: white;
+}
+
+.eventNotification {
+  border-radius: 10%;
+  width: 15px;
+  height: 15px;
+  border: 2px;
+  background-color: #2D3740;
+  color: white;
+  text-align: center;
+  font: 12px Verdana;
+  position: absolute;
+  float: right;
+  right: 20px;
+  bottom: 16px;
+}
+
+
+.groups p {
+  position: relative;
+  bottom: 7px;
+  font-family: Verdana;
+  font-size: 11px;
+  left: 15px;
+  top: 280px;
+  color: #40484B;
+}
+
+.grouplabel {
+  height: 25px;
+  width: 140px;
+  position: relative;
+  top: 290px;
+  left: 15px;
+  color: white;
+}
+
+.grouplabel p {
+  position: relative;
+  bottom: 7px;
+  font-family: Verdana;
+  font-size: 12px;
+  left: 8px;
+  color: white;
+}
+
+
+.tags {
+  border-radius: 50%;
+  float: left;
+  width: 15px;
+  height: 15px;
+
+  border: 2px solid #E6F25E;
+  background-color: #262A2A;
+
+  position: relative;
+  bottom: 10px;
+}
+
+.top {
+  height: 52px;
+  width: 1135px;
+  background-color: #262A2A;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  left: 148px;
+  color: white;
+}
+
+.addArea {
+  position: absolute;
+  height: 52px;
+  width: 60px;
+  float: right;
+  right: 0px;
+  background-color:   #E16754;
+}
+
+.add {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: -5px;
+}
+
+.settings {
+  position: relative;
+  float: right;
+  right: 120px;
+  color: white;
+  top: 15px;
+  font-size: 20px;
+}
+
+.notification {
+  position: relative;
+  float: right;
+  right: 150px;
+  color: white;
+  top: 15px;
+  font-size: 20px;
+}
+
+.feed {
+  position: relative;
+  float: right;
+  right: 180px;
+  color: white;
+  top: 15px;
+  font-size: 20px;
+}
+
+.notificationcircle {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: 2px;
+  background-color: #2AB693;
+  color: white;
+  text-align: center;
+  font: 8px Verdana;
+  position: absolute;
+  float: right;
+  right: 0px;
+  bottom: 15px;
+}
+
+.right {
+  height: 705px;
+  width: 190px;
+  background-color: #EAEEF1;
+  position: relative;
+  float: right;
+  right: -10px;
+}
+
+.searchChat p{
+  position: absolute;
+  color: white;
+  top: 10px;
+  left: 30px;
+  font-size: 10;
+  font-family: Verdana;
+  font-style: italic;
+  color: #C2BCBA;
+}
+
+.hline2 {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 130px;
+  border-top: 1px solid #C2BCBA;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 18px;
+  left: 30px;
+}
+
+.chatsearchIcon {
+  position: absolute;
+  float: right;
+  right: 30px;
+  top: 3px;
+  color: #C2BCBA;
+  font-size: 14;
+}
+
+.onlineText p {
+  color: #9E9998;
+  font-size: 10;
+  position: absolute;
+  float: right;
+  right: 20px;
+  top: 50px;
+  font-family: Verdana;
+  font-weight: 900;
+}
+
+.offlineText p {
+  color: #9E9998;
+  font-size: 10;
+  position: absolute;
+  float: right;
+  right: 20px;
+  top: 370px;
+  font-family: Verdana;
+  font-weight: 900;
+}
+
+.onlineArea {
+  top: 80px;
+  height: 280px;
+  width: 190px;
+  background-color: #EAEEF1;
+  position: relative;
+  overflow: scroll;
+}
+
+.offlineArea {
+  top: 130px;
+  height: 295px;
+  width: 190px;
+  background-color: #EAEEF1;
+  position: relative;
+  overflow: scroll;
+}
+
+.onlineUserEntry {
+  height: 40px;
+  width: 190px;
+  position: relative;
+  top: 10px;
+}
+
+.onlineUsers p{
+  color: #9E9998;
+  font-size: 10;
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 5px;
+  font-family: Verdana;
+  font-weight: 800;
+}
+
+.userCircle {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #2AB693;
+  color: white;
+  text-align: center;
+  font: 8px Verdana;
+  position: relative;
+  float: left;
+  left: 20px;
+  top: 10px;
+}
+
+.statusCircle {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #4CE32D;
+  color: white;
+  text-align: center;
+  font: 8px Verdana;
+  position: relative;
+  float: right;
+  right: 20px;
+  top: 18px;
+}
+
+.middle {
+  height: 705px;
+  width: 945px;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -8px;
+  top: 60px;
+  left: 156px;
+  color: black;
+  overflow: scroll;
+}
+
+.postArea {
+  border-radius: 5px;
+  height: 120px;
+  width: 360px;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  color: black;
+  border: 2px solid #EAEEF1;
+}
+
+.postContent p {
+  color: #9E9998;
+  font-size: 12;
+  position: absolute;
+  float: left;
+  left: 10px;
+  top: 2px;
+  font-family: Verdana;
+  font-weight: 800;
+}
+
+.postIcons {
+  border-radius: 5px;
+  height: 50px;
+  width: 360px;
+  position: absolute;
+  top: 70px;
+  left: -2px;
+  border: 2px solid #EAEEF1;
+  background-color: #EAEEF1;
+}
+
+.mapMarker {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 20px;
+  color: #9E9998;
+}
+
+.photos {
+  position: absolute;
+  top: 10px;
+  left: 45px;
+  font-size: 20px;
+  color: #9E9998;
+}
+
+.calender {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  font-size: 20px;
+  color: #9E9998;
+}
+
+.video {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  font-size: 20px;
+  color: #9E9998;
+}
+
+.sendButton {
+  border-radius: 2px;
+  position: absolute;
+  top: 8px;
+  float: right;
+  right: 20px;
+  height: 25px;
+  width: 50px;
+  border: 1px solid #2AB693;
+  background-color: #2AB693;
+}
+
+.sendButton p {
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.post1 {
+  border-radius: 5px;
+  height: 360px;
+  width: 360px;
+  position: absolute;
+  top: 180px;
+  left: 60px;
+  color: black;
+  border: 2px solid #EAEEF1;
+}
+
+.postDetails {
+  position: absolute;
+  width: 360px;
+  height: 40px;
+  left: -2px;
+  top: -2px;
+  border: 2px solid none;
+}
+
+.username p {
+  position: absolute;
+  font-family: Verdana;
+  font-size: 11px;
+  color: black;
+  font-weight: 900;
+  top: -2px;
+  left: 50px;
+}
+
+.userLocation p {
+  position: absolute;
+  font-family: Verdana;
+  font-size: 9px;
+  color: #9E9998;
+  top: 14px;
+  left: 50px;
+  font-weight: bold;
+}
+
+.postType {
+  position: absolute;
+  color: #9E9998;
+  float: right;
+  top: 7px;
+  right: 20px;
+}
+
+.postTime p {
+  position: absolute;
+  font-family: Verdana;
+  font-size: 9px;
+  color: #9E9998;
+  float: right;
+  top: 14px;
+  right: 20px;
+  font-weight: bold;
+}
+
+.post {
+  position: relative;
+  width: 360px;
+  height: 250px;
+  top: 40px;
+  border: 2px solid none;
+}
+
+.post img {
+  width: 360px;
+  height: 250px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.postreach {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  top: 40px;
+  border: 2px solid none;
+  background-color: #EAEEF1;
+}
+
+.admire p {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-family: Verdana;
+  font-size: 10px;
+  color: #9E9998;
+  font-weight: bold;
+}
+
+.comment p {
+  position: absolute;
+  left: 65px;
+  top: 0px;
+  font-family: Verdana;
+  font-size: 10px;
+  color: #9E9998;
+  font-weight: bold;
+}
+
+.peopleReacted p {
+  position: absolute;
+  float: right;
+  right: 20px;
+  top: 0px;
+  font-family: Verdana;
+  font-size: 10px;
+  color: #9E9998;
+  font-weight: bold;
+}
+
+.writeComment {
+  position: relative;
+  width: 360px;
+  height: 30px;
+  top: 40px;
+  border-top: 2px solid #EAEEF1;
+}
+.writeComment p {
+  position: relative;
+  float: left;
+  left: 10px;
+  top: 0px;
+  font-family: Verdana;
+  font-size: 10px;
+  color: #9E9998;
+  font-weight: bold;
+}
+
+.post2 {
+  border-radius: 5px;
+  height: 480px;
+  width: 360px;
+  position: absolute;
+  top: 30px;
+  left: 530px;
+  color: black;
+  border: 2px solid #EAEEF1;
+}
+
+.postDescription {
+  position: relative;
+  width: 360px;
+  height: 60px;
+  top: 40px;
+  border: 2px solid none;
+}
+
+.postDescription p {
+  position: relative;
+  left: 10px;
+  top: 0px;
+  font-family: Verdana;
+  font-size: 10px;
+  color: #9E9998;
+  font-weight: bold;
+  line-height: 0.5;
+}
+
+.eventParticipants {
+  position: relative;
+  width: 360px;
+  height: 45px;
+  border: 2px solid none;
+}
+
+.participants {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 40px;
+  border: 1px solid #EAEEF1;
+}
+
+.participants p {
+  position: relative;
+  left: 7px;
+  top: 7px;
+  font-family: Verdana;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  line-height: 0.5;
+}
+
+.post3 {
+  border-radius: 5px;
+  height: 360px;
+  width: 360px;
+  position: absolute;
+  top: 570px;
+  left: 60px;
+  color: black;
+  border: 2px solid #EAEEF1;
+}
+
+.post4 {
+  border-radius: 5px;
+  height: 300px;
+  width: 360px;
+  position: absolute;
+  top: 570px;
+  left: 530px;
+  color: black;
+  border: 2px solid #EAEEF1;
+}
+
+.postedCommentArea {
+  position: relative;
+  width: 360px;
+  height: 100px;
+  top: 40px;
+  border: 2px solid none;
+}
+
+.postedComment {
+  position: relative;
+  width: 360px;
+  height: 70px;
+  top: 40px;
+  border: 2px solid none;
+}
+
+.postedComment p {
+  position: relative;
+  left: 50px;
+  top: 0px;
+  font-family: Verdana;
+  font-size: 10px;
+  color: #9E9998;
+  font-weight: bold;
+  line-height: 0.5;
+}
