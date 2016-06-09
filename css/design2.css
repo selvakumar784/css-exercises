@@ -1,0 +1,834 @@
+.left {
+  height: 765px;
+  width: 100px;
+  background-color: #262A2A;
+  float: left;
+  margin-top: -8px;
+  margin-left: -8px;
+  position: relative;
+}
+
+.userCircle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #2AB693;
+  color: white;
+  text-align: center;
+  font: 8px Verdana;
+  position: relative;
+  float: left;
+  left: 25px;
+  top: 20px;
+}
+
+.menu {
+  position: relative;
+  top: 140px;
+}
+
+.label {
+  height: 40px;
+  width: 100px;
+  color: white;
+  font-size: 20px;
+  float: left;
+  left: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+  color: #7A7D80;
+}
+
+.label p {
+  position: relative;
+  bottom: 5px;
+  font-family: Verdana;
+  font-size: 9px;
+  left: -40px;
+  text-align: center;
+  color: #7A7D80;
+}
+
+.taskPopup {
+  width: 260px;
+  height: 60px;
+  top: 130px;
+  background-color: #55ADEC;
+  position: absolute;
+  left: -20px;
+  opacity: 0.8;
+}
+
+.taskPopup:before {
+  border-top: 10px transparent solid;
+  border-bottom: 10px transparent solid;
+  border-right: 12px #55ADEC solid;
+  content: '';
+  height: 0;
+  float: right;
+  left: -10px;
+  position: absolute;
+  top: 20px;
+  width: 0;
+}
+
+.newTask {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.taskArchieve {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  color: white;
+  font-size: 20px;
+}
+
+.taskSearch {
+  position: absolute;
+  top: 10px;
+  left: 210px;
+  color: white;
+  font-size: 20px;
+}
+
+.newTask p {
+  position: absolute;
+  top: 15px;
+  color: white;
+  font-family: Verdana;
+  font-size: 10px;
+  left: -10px;
+  white-space: nowrap;
+}
+
+.taskArchieve p {
+  position: absolute;
+  top: 15px;
+  color: white;
+  font-family: Verdana;
+  font-size: 10px;
+  left: -10px;
+  white-space: nowrap;
+}
+
+.taskSearch p {
+  position: absolute;
+  top: 15px;
+  color: white;
+  font-family: Verdana;
+  font-size: 10px;
+  left: -5px;
+  white-space: nowrap;
+}
+
+.top {
+  height: 52px;
+  width: 1180px;
+  background-color: none;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  left: 100px;
+  color: white;
+}
+
+
+.notificationcircle {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: 2px;
+  background-color: #7A7D80;
+  color: white;
+  text-align: center;
+  font: 8px Verdana;
+  position: absolute;
+  float: left;
+  left: 15px;
+  bottom: 10px;
+
+}
+
+.notification {
+  position: relative;
+  float: left;
+  left: -80px;
+  color: #7A7D80;
+  top: 15px;
+  font-size: 15px;
+}
+
+.settings {
+  position: relative;
+  float: right;
+  right: 80px;
+  color: #7A7D80;
+  top: 15px;
+  font-size: 15px;
+}
+
+.signout {
+  position: relative;
+  float: right;
+  right: 20px;
+  color: #7A7D80;
+  top: 15px;
+  font-size: 15px;
+}
+
+.timeZone {
+  height: 150px;
+  width: 1180px;
+  background-color: none;
+  top: 0px;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  left: 100px;
+  color: white;
+}
+
+.place {
+  height: 150px;
+  width: 1180px;
+  background-color: blue;
+  top: 0px;
+  position: relative;
+  color: white;
+}
+
+.place p {
+  position: relative;
+  float: left;
+  left: -60px;
+  color: #69A1CF;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.place img {
+  position: absolute;
+  left: 0px;
+  width: 1911px;
+  height: 482px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.time1 {
+  height: 150px;
+  width: 150px;
+  background-color: #DF905E;
+  top: 0px;
+  left: 880px;
+  position: absolute;
+  color: #DF905E;
+  opacity: 0.9;
+}
+
+.time2 {
+  height: 150px;
+  width: 150px;
+  background-color: #A069CF;
+  top: 0px;
+  left: 1030px;
+  position: absolute;
+  color: white;
+  opacity: 0.9;
+}
+
+.moon {
+  position: absolute;
+  float: left;
+  left: 70px;
+  color: whote;
+  top: 45px;
+  font-size: 20px;
+}
+
+.time2 p {
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  color: white;
+  font-family: Verdana;
+}
+
+.sun {
+  position: absolute;
+  float: left;
+  left: 70px;
+  color: white;
+  top: 45px;
+  font-size: 20px;
+}
+
+.time1 p {
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  color: white;
+  font-family: Verdana;
+}
+
+.middle {
+  height: 570px;
+  width: 1180px;
+  background-color: #F0F4FD;
+  top: 0px;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  left: 100px;
+  color: white;
+}
+
+.mail {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 370px;
+  height: 380px;
+  background-color: white;
+}
+
+.mailHeader {
+  width: 370px;
+  height: 40px;
+  position: absolute;
+}
+
+.mailHeader p {
+  color:  #CC6263;
+  position: absolute;
+  top: -5px;
+  left: 140px;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.mailComposeBox {
+  position: absolute;
+  eft: 330px;
+  height: 40px;
+  width: 40px;
+  background-color: #CC6263;
+}
+
+.mailCompose {
+  position: absolute;
+  top: 10px;
+    left: 10px;
+  color: white;
+}
+
+.mailContent {
+  top: 50px;
+  position: relative;
+  width: 370px;
+  height: 110px;
+  border-bottom: 0.5px solid #F7F9FA;
+}
+
+.mailContentHeader {
+  position: absolute;
+  width: 370px;
+  height: 50px;
+}
+
+.mailCategory {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: red;
+  font-size: 12px;
+}
+
+.mailContactPic {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: 40px;
+  border: 1px solid #C6C9CC;
+  background-color: #C6C9CC;
+}
+
+.coversationName p {
+  position: absolute;
+  color: #909599;
+  left: 80px;
+  top: 0px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.aboutUser p {
+  position: absolute;
+  color: black;
+  left: 80px;
+  top: 15px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.mailTime p {
+  position: absolute;
+  color: #909599;
+  float: right;
+  right:  20px;
+  font-family: Verdana;
+  font-size: 12px;
+
+}
+.mailContentBody {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  height: 60px;
+  width: 370px;
+}
+.mailContentBody p {
+  color: #4E5052;
+  position: relative;
+  left: 20px;
+  top: 5px;
+  font-size: 12px;
+  font-family: Verdana;
+  line-height: 0.25;
+}
+
+.notes {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  width: 370px;
+  height: 150px;
+  background-color: white;
+}
+
+.notesHeader {
+  width: 350px;
+  height: 40px;
+  position: absolute;
+}
+
+.notePin {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: #808487;
+}
+
+.notesHeader p {
+  color: blue;
+  position: absolute;
+  top: -5px;
+  left: 140px;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.noteAdd {
+  position: absolute;
+  top: 10px;
+  left: 325px;
+  color: blue;
+}
+
+.note {
+  position: relative;
+  top: 40px;
+  height: 35px;
+  width: 350px;
+  border-bottom: 0.5px solid #F7F9FA;
+}
+
+.noteContent p{
+  top: 5px;
+  left: 10px;
+  position: absolute;
+  color: #C6C9CC;
+  font-family: Verdana;
+  font-size: 10px;
+}
+
+.noteLabel {
+  height: 20px;
+  width: 35px;
+  top: 10px;
+  float: right;
+  right: 5px;
+  position: absolute;
+  background-color: #7AE6D8;
+  text-align: center;
+}
+
+.noteLabel p {
+  color: white;
+  font-family: Verdana;
+  top: -2px;
+  left: 2px;
+  position: absolute;
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar {
+  position: absolute;
+  top: 20px;
+  left: 420px;
+  width: 740px;
+  height: 350px;
+  background-color: white;
+}
+
+.events {
+  height: 350px;
+  width: 200;
+  position: absolute;
+}
+
+.month {
+  height: 50px;
+  width: 200;
+  position: absolute;
+}
+
+.month p {
+  position: absolute;
+  color: black;
+  font-family: Verdana;
+  font-size: 14px;
+  left: 30px;
+  top: 5px;
+}
+
+.event {
+  top: 70px;
+  position: relative;
+  height: 50px;
+  width: 200;
+}
+
+.eventCircle {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  border: 2px;
+  background-color: red;
+  position: absolute;
+  float: left;
+  left: 25px;
+  top: 10px;
+
+}
+
+.eventName p {
+  position: absolute;
+  color: black; 
+  font-family: Verdana;
+  font-size: 12px;
+  top: -8px;
+  left: 35px;
+}
+
+.eventTime p {
+  color: #C6C9CC;
+  font-family: Verdana;
+  font-size: 12px;
+  top: 5px;
+  left: 35px;
+  position: absolute;
+}
+
+.calendarHeader {
+  width: 520px;
+  height: 50px;
+  left: 220;
+  position: absolute;
+}
+
+.calendarHeader p {
+  color: orange;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.calendarAdd {
+  position: absolute;
+  top: 15px;
+  float: right;
+  right: 30px;
+  color: orange;
+  font-size: 20px;
+}
+
+.days {
+  width: 520px;
+  height: 30px;
+  top: 50px;
+  left: 220;
+  position: absolute;
+}
+
+.dateSection {
+  width: 520px;
+  height: 270px;
+  top: 80px;
+  left: 220;
+  position: absolute;
+  border: 1px solid #F0F4FD;
+}
+
+.dateRow {
+  width: 520px;
+  height: 45px;
+  top: 0px;
+  position: relative;
+}
+
+.dateRow p {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  font-family: Verdana;
+  color: black;
+  font-size: 12px;
+
+}
+
+.days p {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  font-family: Verdana;
+  color: black;
+  font-size: 12px;
+}
+
+.calendarPopup {
+  width: 180px;
+  height: 180px;
+  top: 150px;
+  background-color: #F6F7F9;
+  position: absolute;
+  left: 350px;
+}
+
+.calendarPopup:before {
+  border-top: 10px transparent solid;
+  border-bottom: 10px transparent solid;
+  border-left: 12px #F6F7F9 solid;
+  content: '';
+  height: 0;
+  float: right;
+  left: 180px;
+  position: absolute;
+  top: 120px;
+  width: 0;
+}
+.eventSquare {
+  width: 15px;
+  height: 15px;
+  border: 2px;
+  background-color: cyan;
+  position: absolute;
+  float: right;
+  right: 15px;
+  top: 15px;
+}
+
+.eventNotes p {
+  color: #747575;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.eventAlert p {
+  color: #747575;
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.contacts {
+  position: absolute;
+  top: 390px;
+  left: 420px;
+  width: 350px;
+  height: 180px;
+  background-color: white;
+}
+
+.contactsHeader {
+  width: 350px;
+  height: 40px;
+  position: absolute;
+}
+
+.contactSearch {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: #808487;
+}
+
+.contactsHeader p {
+  color: green;
+  position: absolute;
+  top: -5px;
+  left: 140px;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.contactAdd {
+  position: absolute;
+  top: 10px;
+  left: 325px;
+  color: green;
+}
+
+.contact {
+  position: relative;
+  top: 45px;
+  height: 40px;
+  width: 350px;
+  border-bottom: 0.5px solid #F7F9FA;
+}
+
+.contactPic {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 7px;
+  left: 10px;
+  border: 1px solid #C6C9CC;
+  background-color: #C6C9CC;
+}
+
+.contact p {
+  position: absolute;
+  top: -5px;
+  left: 40px;
+  color: black;
+  font-size: 10px;
+  font-family:  Verdana;
+  font-weight: bold;
+}
+
+.contactEmail p {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  color: #C6C9CC;
+  font-size: 10px;
+  font-family:  Verdana;
+  font-variant: 100;
+}
+
+.weather {
+  position: absolute;
+  top: 390px;
+  left: 800px;
+  width: 360px;
+  height: 180px;
+  background-color: #62A5D9;
+}
+
+.weatherSolid {
+  position: absolute;
+  width: 360px;
+  height: 180px;
+  background-color: #62A5D9;
+  opacity: 0.7;
+}
+
+.weatherHeader {
+  width: 360px;
+  height: 40px;
+  position: absolute;
+}
+
+.weatherToggle {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: white;
+}
+
+.weatherHeader p {
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 140px;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.weatherAdd {
+  position: absolute;
+  top: 10px;
+  left: 325px;
+  color: white;
+
+}
+.weather img {
+  position: absolute;
+  left: 0px;
+  width: 360px;
+  height: 180px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.weatherDetails p {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  color: white;
+  font-size: 14px;
+  font-family:  Verdana;
+  line-height: 2px;
+}
+
+.weatherTemp {
+  height: 70px;
+  width: 100px;
+  position: absolute;
+  top: 40px;
+  float: right;
+  right: 20px;
+}
+
+.temp {
+  color: white;
+  font-size: 35px;
+  top: 10px;
+  position: absolute;
+}
+
+.weatherTemp p {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+  left: 45px;
+  font-family: Verdana;
+}
