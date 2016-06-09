@@ -1,0 +1,586 @@
+.left {
+  height: 765px;
+  width: 148px;
+  background-color: #262A2A;
+  float: left;
+  margin-top: -8px;
+  margin-left: -8px;
+  position: relative;
+}
+
+.compose {
+  height: 30px;
+  width: 120px;
+  background-color: #D04F3A;
+  text-align: center;
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  border-radius: 3px;
+}
+
+.compose p{
+  position: absolute;
+  color: white;
+  top: -5px;
+  left: 30px;
+  font-size: 12;
+  font-family: Verdana;
+}
+
+.menu {
+  position: absolute;
+  top: 80px;
+  left: 5px;
+}
+
+.menu p {
+  color: #40484B;
+}
+
+.inbox {
+  height: 30px;
+  width: 160px;
+  background-color: white;
+  margin-left: -15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.inbox p {
+  position: relative;
+  top: -6px;
+  font-family: Verdana;
+  font-size: 12px;
+  left: 10px;
+}
+
+.label {
+  height: 25px;
+  width: 140px;
+  position: relative;
+  top: 50px;
+}
+
+.label p {
+  position: relative;
+  bottom: 7px;
+  font-family: Verdana;
+  font-size: 12px;
+  left: 10px;
+}
+
+.numberCircleCurrent {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font: 12px Verdana;
+  position: absolute;
+  left: 110px;
+  top: 5px;
+
+}
+
+.numberCircle {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #40484B;
+  background-color: #262A2A;
+  text-align: center;
+  color: #40484B;
+  font: 12px Verdana;
+  position: absolute;
+  left: 110px;
+  top: -10px;
+}
+
+.border {
+  border-bottom: 1px solid white; 
+}
+
+.menu1 {
+  position: relative;
+  top: 300px;
+  left: 5px;
+}
+
+.menu1 p {
+  color: #40484B;
+}
+
+.categories { 
+  position: relative;
+  top: 80px;
+  left: 20px;
+  color: #40484B;
+  font-family: Verdana;
+  font-size: 12;
+  float: left;
+
+}
+
+.fashion {
+  background-color: #20282A;
+  font-family: Verdana;
+  font-size: 12;
+  position: relative;
+  height: 30px;
+  width: 148px;
+  left: -8px;
+  clear: both;
+  bottom: -10px;
+}
+
+.fashion p {
+  position: relative;
+  font-family: Verdana;
+  font-size: 12px;
+  color: white;
+  left: 18px;
+  top: 7px;
+}
+
+.menu1 .label {
+  position: relative;
+  top: 20px;
+}
+
+.workCircle {
+  border-radius: 50%;
+  float: left;
+  width: 18px;
+  height: 18px;
+  border: 2px solid blue;
+  background-color: #262A2A;
+  position: relative;
+  bottom: 10px;
+}
+
+.fashionCircle {
+  border-radius: 50%;
+  float: left;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #66A586;
+  background-color:  #262A2A;
+  position: relative;
+  top: 3px;
+  left: 8px;
+}
+
+.userCircle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #66A586;;
+  font: 12px Verdana;
+  position: relative;
+  left: 40px;
+  top: 430px;
+}
+
+.left .downArrow {
+  position: relative;
+  top: 410px;
+  left: 80px;
+}
+
+.labels {
+  position: relative;
+}
+
+.labels p {
+  font-size: 12px; 
+  font-family: Verdana;
+}
+
+.labelPos{
+  float: right;
+  position: absolute;
+  right: 15px;
+  bottom: -1px;
+}
+
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 148px;
+  border-top: 1px solid #40484B;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 280px;
+}
+
+.hr2 {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 148px;
+  border-top: 1px solid #40484B;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 560px;
+}
+
+.middle {
+  height: 740px;
+  width: 600px;
+  background-color: white;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  left: 148px;
+}
+
+.inboxText
+{
+  position: absolute;
+  font-size: 30;
+  font-family: Verdana;
+  left: 20px;
+}
+
+.searchBox {
+  width: 180px;
+  height: 30px;
+  border: 2px solid #E7E7E7;
+  background-color:  white;
+  position: absolute;
+  right: 60px;
+  top: 35px;
+}
+
+.searchIcon {
+  position: relative;
+  float: right;
+  right: 10px;
+  bottom: 8px;
+}
+
+.toggleDisplayLine {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 520px;
+  border-top: 1px solid #E7E7E7;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+.toggleRedLine {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 40px;
+  border-top: 1px solid red;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 100px;
+  right: 60px;
+}
+
+.icons {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+}
+
+.displayType {
+  position: absolute;
+  top: 95px;
+  right: 60px;
+}
+
+.displayType p {
+  font-family: verdana;
+  font-size: 10px;
+  display: inline;
+}
+
+.mail {
+  position: relative;
+  top: 10px;
+  right: 125px;
+  height: 30px;
+  width: 720px;
+}
+
+.highlightMail {
+  position: relative;
+  width: 580px;
+  height: 20px;
+  background-color: #E9EDF0;
+}
+
+.mailLayout {
+  position: absolute;
+  height: 600px;
+  width: 580px;
+  overflow-y: visible;
+  overflow-x: hidden;
+  top:120;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.username {
+  position: relative;
+  left: 150px;
+}
+
+.icon1 {
+  position: absolute;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #66A586;
+}
+
+.username p {
+  position: absolute;
+  font-family: Verdana;
+  font-size: 12px;
+  left: 45px;
+  white-space: nowrap;
+  top: -5px;
+}
+
+.description {
+  position: relative;
+  left: 380px;
+  top: 10px;
+}
+
+.description p {
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.time {
+  position: relative;
+  left: 580px;
+  bottom: 18px;
+}
+
+.time p {
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: left;
+}
+
+.tag {
+  position: absolute;
+  width: 40px;
+  height: 15px;
+  left: -50px;
+  background-color: #8CD2EC;
+  vertical-align: middle;
+
+}
+.tag p {
+  position: relative;
+  font-family: Verdana;
+  font-size: 9px;
+  color: white;
+  vertical-align: middle;
+  top: -6px;
+  left: 4px;
+}
+
+.pin {
+  position: absolute;
+  left: -30px;
+}
+
+
+.right {
+  height: 792px;
+  width: 600px;
+  background-color: white;
+  position: relative;
+  left: 748px;
+  margin-top: -782px;
+  margin-left: -8px;  
+}
+
+.heading p{
+  position: absolute;
+  top: 10px;
+  font-size: 50px;
+  left: 10px;
+  font-family: Verdana;
+  white-space: nowrap;
+}
+
+.maildata p {
+  font-family: Verdana;
+  font-size: 10px;
+  position: absolute;
+  top: 125px;
+  left: 10px;
+}
+
+.downArrow {
+  position: absolute;
+  left: 280px;
+  top: 135px;
+}
+
+.toggleDisplayLine3 {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 480px;
+  border-top: 1px solid #E7E7E7;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 140px;
+  left: 10px;
+}
+
+.content {
+  font-family: Verdana;
+  position: absolute;
+  left: 10px;
+  font-size: 14px;
+  top: 165px;
+  width: 480;
+  line-height: 1.75;
+}
+
+.content1 {
+  font-family: Verdana;
+  position: absolute;
+  left: 10px;
+  font-size: 14px;
+  top: 390px;
+  width: 480px;
+  line-height: 1.75;
+}
+
+.highlight {
+  font-family: Verdana;
+  position: absolute;
+  left: 50px;
+  top: 310px;
+  width: 480px;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.vr {
+  display: block;
+  height: 50px;
+  border: 0;
+  width: 0px;
+  border: 2px solid #9C0622;
+  padding: 0;
+  position: absolute;
+  top: 330px;
+  left: 10px;
+}
+
+.attachment {
+  width: 480px;
+  height: 60px;
+  position: absolute;
+  left: 10px;
+  border: 0.25px solid #E7E7E7;
+  top: 480px;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #66A586;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.attachment p {
+  font-family: Verdana;
+  font-size: 10px;
+  position: absolute;
+  left: 60px;
+  top: 10px;
+}
+
+.arrow {
+  position: absolute;
+  left: 380px;
+  top: 18px;
+}
+
+.download {
+    position: absolute;
+  left: 440px;
+  top: 13px;  
+}
+
+.replybox {
+  width: 480px;
+  height: 80px;
+  position: relative;
+  left: 10px;
+  top: 590px;
+  border: 2px solid #E7E7E7;
+}
+
+.replybox p {
+  position: absolute;
+  font-family: Verdana;
+  font-size: 12px;
+  left: 10px;
+}
+
+.map {
+  position: relative;
+  top: 600px;
+  left: 160px;
+}
+
+.map p {
+  position: absolute;
+  left: 160px;
+  bottom: -8px;
+  font-family: Verdana;
+  color: red;
+  font-size: 10px;
+}
+
+.sendbox {
+  height: 30px;
+  width: 65px;
+  background-color: #D04F3A;
+  text-align: center;
+  position: absolute;
+  right: 105px;
+  top: 680px;
+  border-radius: 3px;
+}
+
+.sendbox p{
+  position: absolute;
+  color: white;
+  font-size: 12;
+  top: -5px;
+  left: 15px;
+  font-family: Verdana;
+}
