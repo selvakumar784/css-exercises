@@ -1,0 +1,495 @@
+.left {
+  height: 765px;
+  width: 188px;
+  background-color: #AA604D;
+  float: left;
+  margin-top: -8px;
+  margin-left: -8px;
+  position: relative;
+}
+
+.searchText {
+  height: 60px;
+  width: 148px;
+  background-color: #AA604D;
+  text-align: center;
+  position: absolute;
+
+}
+
+.searchIcon {
+  position: absolute;
+  float: right;
+  right: 40px;
+  top: 0px;
+  color: #CFD0D1;
+  font-size: 14;
+}
+
+.hline1 {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 120px;
+  border-top: 1px solid #CFD0D1;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 18px;
+  left: 30px;
+}
+
+.menu {
+  position: relative;
+  top: 50px;
+  width: 188px;
+  height: 140px;
+  border-bottom: 1px solid #CFD0D1;
+}
+
+.label {
+  height: 10px;
+  width: 100px;
+  color: #B3B4B5;
+  position: relative;
+}
+
+.label p {
+  position: relative;
+  bottom: 5px;
+  font-family: "Verdana";
+  font-size: 12px;
+  left: 20px;
+  color: #CFD0D1;
+  letter-spacing: 1px;
+}
+
+.recent {
+  margin-top: 30px;
+  position: relative;
+  top: 60px;
+  width: 188px;
+  height: 510px;
+}
+
+.activities {
+  width: 188px;
+  height: 40px;
+  position: relative;
+}
+
+.userCircle {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #CFD0D1;
+  position: relative;
+  float: left;
+  left: 15px;
+  top: 0px;
+}
+
+.activityContent {
+  width: 140px;
+  height: 30px;
+  left: 45;
+  top: 5px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.activities p {
+  position: relative;
+  color: #CFD0D1;
+  font-family: Verdana;
+  font-size: 10px;
+  left: -20px;
+  margin-bottom: 15px;
+}
+
+
+.middle {
+  height: 765px;
+  width: 530px;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -8px;
+  left: 188px;
+  border-right: 1px solid #CFD0D1;
+}
+
+.ticketHeader {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 470;
+  height: 90px;
+  border-bottom: 1px solid #CFD0D1;
+}
+
+.ticketHeader p {
+  left: 20px;
+  top: -20px;
+  font-family: Verdana;
+  font-size: 30px;
+  color: black;
+  position: absolute;
+}
+
+.ticketIcons {
+  position: absolute;
+  width: 140px;
+  height: 20px;
+  float: right;
+  right: 0px;
+  top: 10px;
+}
+
+.ticketIcons p {
+  font-size: 20px;
+  color: #B3B3B3;
+}
+
+.markTag {
+  border-radius: 10%;
+  width: 80px;
+  height: 30px;
+  background-color: #274840;
+  position: absolute;
+  top: 40px;
+  float: right;
+  right: 40px;
+}
+
+.markTag:after {
+  border-right: 8px transparent solid;
+  border-left: 8px transparent solid;
+  border-bottom: 12px #274840 solid;
+  content: '';
+  height: 0;
+  float: right;
+  left: 30px;
+  position: absolute;
+  top: -8px;
+  width: 0;
+}
+
+.tagCircle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #75ACA7;
+  position: relative;
+  float: left;
+  left: 10px;
+  top: 8px;
+}
+
+.ticketDetails {
+  position: relative;
+  top: 110px;
+  height: 90px;
+  width: 470px;
+  left: 30px;
+  border-bottom: 1px solid #CFD0D1;
+}
+
+.userName p{
+  position: absolute;
+  top: 5px;
+  color: black;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+.ticketTime p{
+  position: absolute;
+  top: 5px;
+  float: right;
+  right: 50px;
+  color: #7D7D7D;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+.ticketId p{
+  position: absolute;
+  top: 5px;
+  float: right;
+  right: 10px;
+  color: #7D7D7D;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+.ticketTitle p {
+  position: absolute;
+  top: 20px;
+  color: black;
+  font-family: Verdana;
+  font-size: 14px;
+}
+
+.ticketDescription p {
+  position: absolute;
+  top: 45px;
+  color: #7D7D7D;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+.eventNotification {
+  border-radius: 40%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  color: #AA604D;
+  text-align: center;
+  font: 12px Verdana;
+  position: absolute;
+  float: left;
+  left: 150px;
+  top: -8px;
+}
+
+.right {
+  position: absolute;
+  width: 560px;
+  height: 757px;
+  left: 718px;
+  margin-top: -8px;
+}
+
+.picture {
+  position: absolute;
+  width: 570;
+  height: 180px;
+}
+
+.arrowsAlt {
+  position: absolute;
+  top: 15px;
+  float: right;
+  right: 25px;
+  color: #B3B3B3;
+  font-size: 15px;
+}
+
+.picture p {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  font-family: Verdana;
+  font-size: 25;
+  color: white;
+}
+
+.picture img {
+  position: absolute;
+  width: 570px;
+  margin-left: -8px;
+  height: 180px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.discussion {
+  position: absolute;
+  top: 180px;
+  left: 15px;
+  width: 525;
+  height: 400;
+  border-bottom: 1px solid #CFD0D1;
+}
+
+.contentHeader {
+  position: absolute;
+  width: 560;
+  height: 60px;
+  top: 10px;
+}
+
+.contentHeader p {
+  top: 20px;
+  font-size: 12px;
+  font-family: Verdana;
+  color: black;
+  position: absolute;
+}
+
+.boldFlag {
+  position: absolute;
+  color: green;
+  font-size: 20px;
+  float: right;
+  right: 80px;
+  top: 30px;
+}
+
+.settings {
+  position: absolute;
+  font-size: 20px;
+  float: right;
+  right: 40px;
+  top: 30px;
+}
+
+.ticketContentBox {
+  position: absolute;
+  top: 80px;
+  height: 150px;
+  width: 525;
+  border-radius: 10px;
+  border: 1px solid #CFD0D1;
+  background-color: #FDFDF5;
+}
+
+.ticketContent {
+  position: absolute;
+  top: 40px;
+  height: 110px;
+  width: 470;
+}
+
+.ticketContent p {
+  font-family: Verdana;
+  font-size: 12px;
+  position: absolute;
+}
+
+.ticketContentHeader {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  height: 30px;
+  width: 470;
+  border-bottom: 1px solid #CFD0D1;
+}
+
+.ticketContentHeader p {
+  font-family: Verdana;
+  font-size: 12px;
+  position: absolute;
+  top: -5px;
+}
+
+.ticketCommentBox {
+  position: absolute;
+  top: 250px;
+  height: 120px;
+  width: 525;
+  border-radius: 10px;
+  border: 1px solid #CFD0D1;
+  background-color: #F3F9F4;
+}
+
+.ticketComment {
+  position: absolute;
+  top: 40px;
+  height: 110px;
+  width: 470;
+}
+
+.ticketComment p {
+  font-family: Verdana;
+  font-size: 12px;
+  position: absolute;
+}
+
+.ticketCommentHeader {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  height: 30px;
+  width: 470;
+  border-bottom: 1px solid #CFD0D1;
+}
+
+.ticketCommentHeader p {
+  font-family: Verdana;
+  font-size: 12px;
+  position: absolute;
+  top: -5px;
+}
+
+.ticketNewComment {
+  position: absolute;
+  top: 420px;
+  height: 80px;
+  width: 525;
+  border-radius: 10px;
+  border: 1px solid #CFD0D1;
+  background-color: #F3F9F4;
+}
+
+.ticketNewComment p {
+  font-family: Verdana;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  font-style: italic;
+}
+
+.submissionArea {
+  position: absolute;
+  top: 700px;
+  left: 25px;
+  height: 30px;
+  width: 525;
+}
+
+.ticketTypeDropDown {
+  border-radius: 500px;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  float: left;
+  left: 180px;
+  border: 2px solid #CFD0D1;
+}
+
+.ticketTypeDropDown p {
+  font-family: Verdana;
+  font-size: 10px;
+  position: absolute;
+  left: 10px;
+  top: -5px;
+}
+
+.selectIcons {
+  position: absolute;
+  color: #CFD0D1;
+  left: 160px;
+  top: 5px;
+  font-size: 15px;
+}
+
+.dropDownIcon {
+  position: absolute;
+  color: #CFD0D1;
+  float: right;
+  right: 10px;
+  top: 5px;
+  font-size: 15px;
+  
+}
+
+.submit {
+  border-radius: 500px;
+  width: 60px;
+  height: 20px;
+  position: absolute;
+  float: left;
+  left: 450px;
+  border: 2px solid #434952;
+  background-color: #434952
+}
+
+.submit p {
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  color: white;
+  font-family: Verdana;
+  font-size: 12px;
+}
