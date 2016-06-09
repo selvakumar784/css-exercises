@@ -1,0 +1,1073 @@
+.top {
+  height: 60px;
+  width: 1280px;
+  background-color: #3A3E41;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  color: white;
+}
+
+.logoSection {
+  height: 60px;
+  width: 100px;
+  background-color: #3A3E41;
+  position: absolute;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  font-size: 35px;
+  color: white;
+}
+
+.topMenu {
+  position: absolute;
+  top: 20px;
+  width: 360px;
+  height: 20px;
+  left: 100px;
+}
+
+.topMenuItems {
+  position: absolute;
+  width: 140px;
+  height: 20px;
+}
+
+.topMenuItems p {
+  position: absolute;
+  float: left;
+  left: 0px;
+  text-align: center;
+  top: -10px;
+  color: gray;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.teach {
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  position: absolute;
+  float: left;
+  left: 380px;
+  top: 15px;
+  border: 2px solid #E76947;
+  background-color: #E76947;
+}
+
+.teachIconArea {
+  position: absolute;
+  float: left;
+  left: -2px;
+  top: -2px;
+  border: 2px solid #B85441;
+  background-color: #B85441;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.teachIcon {
+  color: #F5F5F7;
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+
+.teach p {
+  position: absolute;
+  top: -8px;
+  left: 45px;
+  color: white;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.topIconsSection {
+  position: absolute;
+  float: right;
+  right: 0px;
+  top: 20px;
+  width: 280px;
+  height: 20px;
+}
+
+
+.searchIconSection {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+}
+
+.search {
+  position: absolute;
+  font-size: 18px;
+  color: gray;
+}
+
+.search p {
+  font-family: Verdana;
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  font-size: 14px;
+  color: gray;
+}
+
+.userSection {
+  position: absolute;
+  top: -10px;
+  width: 180px;
+  height: 50px;
+  left: 100px;
+}
+
+.userCircleSection {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+}
+
+.userCircle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #CFD0D1;
+  position: relative;
+  float: left;
+}
+
+.userSection p {
+  font-family: Verdana;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  font-size: 12px;
+  color: gray;
+}
+
+.downIcon {
+  position: absolute;
+  float: right;
+  right: 45px;
+  top: 10px;
+  font-size: 18px;
+  color: gray;
+}
+
+.left {
+  height: 1620px;
+  width: 300px;
+  top: 60px;
+  border-right: 2px solid #F5F5F7;
+  background-color: white;
+  float: left;
+  margin-left: -8px;
+  position: absolute;
+}
+
+.courseSection {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background-color: #F3633D;
+}
+
+.courseSection p {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-family: Verdana;
+  font-size: 12px;
+  color: #E6E6E6;
+}
+
+.courseTitle {
+  top: 60px;
+  position: absolute;
+  width: 270px;
+  height: 80px;
+}
+
+.courseTitle p {
+  top: -30px;
+  float: left;
+  position: absolute;
+  font-family: Verdana;
+  font-size: 25px;
+  color: white;
+  line-height: 1.5;
+}
+
+.lessonsList {
+  top: 140px;
+  position: absolute;
+  width: 270px;
+  height: 1480px;
+}
+
+.lessonsList ul {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  border-left: 2px solid #CCCCCC;
+}
+
+
+.lessonsList ul li {
+  list-style-type: none;
+}
+
+.lessonsList ul:before {
+  content: "";
+  display: inline-block;
+  width: 400px;
+  position: relative;
+  left: -12px;
+}
+
+.lessonsList ul li:before {
+  content: "";
+  display: inline-block;
+  width: 128px;
+  height: 640px;
+  top: 80px;
+  position: relative;
+  left: -12px;
+  border-top: 2px solid #CCCCCC;
+}
+
+.author {
+  top: 10px;
+  float: left;
+  position: absolute;
+  width: 270px;
+  height: 50px;
+  left: 0px;
+}
+
+.author p {
+  position: relative;
+  font-family: Verdana;
+  top: -15px;
+  left: 10px;
+  font-size: 12px;
+  color: gray;
+  line-height: 0.5;
+}
+
+.courseProgress {
+  top: 60px;
+  left: -32px;
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  background-color: #E85D39;
+}
+
+.progressPercentage {
+  border-radius: 5px;
+  background-color: #D95634;
+  top: 15px;
+  left: 20px;
+  position: absolute;
+  width: 50px;
+  height: 30px;
+}
+
+.progressPercentage p {
+  top: -10px;
+  left: 5px;
+  position: absolute;
+  font-family: Verdana;
+  font-size: 15px;
+  color: white;
+}
+
+.progressBar {
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  width: 200px;
+  height: 5px;
+  background-color: #D95634;
+  border-radius: 13px;
+  padding: 3px;
+}
+
+.progress {
+  background-color: white;
+  width: 13%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+.gettingStarted {
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  left: -32px;
+  top: 120px;
+  background-color: #2F2F2F;
+}
+
+.gettingStarted p {
+  left: 20px;
+  position: absolute;
+  font-family: Verdana;
+  font-size: 18px;
+  color: white;
+}
+
+.lessonsIndex {
+  position: absolute;
+  width: 300px;
+  height: 1310px;
+  top: 200px;
+  background-color: #383D40;
+}
+
+.lessonsIndex ul {
+  position: relative;
+  left: 30px;
+  width: 230px;
+  border-left: 2px solid #4D4D4D;
+}
+
+
+.lessonsIndex ul li {
+  list-style-type: none;
+}
+
+.lessonsIndex ul:before {
+  top: 10px;
+  content: "";
+  display: inline-block;
+  width: 160px;
+  position: relative;
+  left: -12px;
+}
+
+.lessonsIndex ul li:before {
+  content: "";
+  display: inline-block;
+  width: 240px;
+  height: 112px;
+  position: relative;
+  left: -12px;
+  border-top: 2px solid #4D4D4D;
+}
+
+.lessonsIndex ul ul {
+  position: relative;
+  top: 50px;
+  left: -43px;
+
+}
+
+.lessonsIndex .circleSectionUL {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: -63px;
+  top: -55px;
+}
+
+.lessonsIndex .circleSectionList {
+  position: relative;
+  width: 30px;
+  height: 50px;
+  left: 50px;
+  top: -80px;
+}
+
+.lessonNum {
+  position: absolute;
+  border-radius: 1px;
+  top: -15px;
+  left: 30px;
+  width: 90px;
+  height: 20px;
+  background-color: #2D3132;
+}
+
+.lessonNum p {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  font-size: 11px;
+  font-family: Verdana;
+  color: #666565;
+  font-weight: bold;
+}
+
+.lessonShortDesc {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 180px;
+  height: 60px;
+}
+
+.lessonShortDesc p {
+  position: absolute;
+  top: 5px;
+  font-size: 13px;
+  font-family: Verdana;
+  color: #666565;
+}
+
+.lessonTip {
+  position: absolute;
+  top: 80px;
+  left: -35px;
+  width: 300px;
+  height: 60px;
+  background-color: #2D3132;
+}
+
+.lessonTip p {
+  position: absolute;
+  left: 20px;
+  font-size: 14px;
+  font-family: Verdana;
+  color: #666565;
+}
+
+.lessonCircle {
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  border: 2px solid #666565;
+  background-color: #666565;
+  position: relative;
+  float: left;
+  left: -45px;
+  top: -12px;
+}
+
+.circleTick {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #6DBDB9;
+  background-color: #6DBDB9;
+  position: relative;
+  float: left;
+  left: -48px;
+  top: -15px;
+}
+
+.check {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  color: black;
+  font-size: 10px;
+}
+.middle {
+  height: 700px;
+  width: 980px;
+  position: absolute;
+  float: left;
+  left: 300px;
+  top: 60px;
+}
+
+
+.middleHeader {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  width: 920px;
+  height: 80px;
+  border-bottom: 2px solid #F5F5F7;
+}
+
+.lessonName p {
+  font-family: Verdana;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  font-size: 18px;
+  color: #85C5C3;
+}
+
+.lessonNavigationSection{
+  position: absolute;
+  top: 20px;
+  float: right;
+  right: 0px;
+  width: 240px;
+  height: 40px;
+}
+
+.prevLesson {
+  position: absolute;
+  float: left;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #CBD0CE;
+}
+
+.prevIcon {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.nextLesson {
+  position: absolute;
+  float: left;
+  left: 60px;
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #6DBDB9;
+}
+
+.nextLesson p {
+  position: absolute;
+  left: 30px;
+  top: -5px;
+  color: white;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.nextLessonIcon {
+  position: absolute;
+  float: right;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #77AFAD;
+}
+
+.nextIcon {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: white;
+  font-size: 20px; 
+}
+
+.lessonDescription {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  float: left;
+  width: 600px;
+  height: 150px;
+}
+
+.authorCircleSection {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+}
+
+.authorCircle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #CFD0D1;
+  position: relative;
+  float: left;
+  top: 10px;
+}
+
+.lessonTitle {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  width: 550px;
+  height: 30px;
+}
+
+.lessonTitle p {
+  top: -20px;
+  position: absolute;
+  font-size: 18px;
+  font-family: Verdana;
+  color:  #3A3E41;
+  letter-spacing: 1px;
+}
+
+.lessonDetails {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  width: 550px;
+  height: 20px;
+}
+
+.lessonDetails p {
+  top: -15px;
+  position: absolute;
+  font-size: 14px;
+  font-family: Verdana;
+  color: gray;
+}
+
+.lessonIconsSection {
+  position: absolute;
+  left: 220px;
+  width: 330px;
+  height: 20px;
+}
+
+.favIcon {
+  position: absolute;
+  float: left;
+  left: 0px;
+  width: 90px;
+  height: 20px;
+  color: #CBD0CE;
+  border-right: 2px solid #CBD0CE;
+}
+
+.favIcon p {
+  top: -15px;
+  left: 20px;
+  position: absolute;
+  font-size: 14px;
+  font-family: Verdana;
+  color: #CBD0CE;
+}
+
+.reuseIcon {
+  position: absolute;
+  left: 100px;
+  width: 70px;
+  height: 20px;
+  color: #CBD0CE;
+  border-right: 2px solid #CBD0CE;
+}
+
+.reuseIcon p {
+  top: -15px;
+  left: 20px;
+  position: absolute;
+  font-size: 14px;
+  font-family: Verdana;
+  color: #CBD0CE;
+}
+
+.markIcon {
+  position: absolute;
+  left: 180px;
+  width: 150px;
+  height: 20px;
+  color: #CBD0CE;
+}
+
+.markIcon p {
+  top: -15px;
+  left: 20px;
+  position: absolute;
+  font-size: 14px;
+  font-family: Verdana;
+  color: #CBD0CE;
+}
+
+.lessonContent {
+  position: absolute;
+  top: 180px;
+  left: 30px;
+  float: left;
+  width: 630px;
+  height: 120px;
+}
+
+.lessonContent p {
+  top: -15px;
+  position: absolute;
+  font-size: 12px;
+  font-family: Verdana;
+  color: gray;
+  line-height: 2;
+}
+
+.resources {
+  position: absolute;
+  top: 100px;
+  left: 700px;
+  width: 250px;
+  height: 160px;
+}
+
+.resourcesTitle p {
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  color:  #3A3E41;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.resourcesContent {
+  position: absolute;
+  top: 30px;
+  width: 250px;
+  height: 130px;
+}
+
+.resourcesContent p {
+  position: relative;
+  left: 15px;
+  color:  gray;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.lessonVideo {
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  float: left;
+  width: 920px;
+  height: 450px;
+  background-color: cyan;
+}
+
+.lessonVideo img {
+  position: absolute;
+  left: 0px;
+  width: 920px;
+  height: 450px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.queCom {
+  position: absolute;
+  top: 740px;
+  left: 30px;
+  float: left;
+  width: 920px;
+  height: 40px;
+}
+
+.queCom p {
+  position: absolute;
+  top: -15px;
+  font-family: verdana;
+  font-size: 25px;
+  color: black;
+}
+
+.commentsIcon {
+  position: absolute;
+  float: left;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #CBD0CE;
+}
+
+.comments {
+  position: absolute;
+  float: right;
+  top: 15px;
+  right: 0px;
+  width: 150px;
+  height: 40px;
+}
+
+.comments p {
+  position: absolute;
+  left: 20px;
+  top: -12px;
+  font-family: verdana;
+  font-size: 14px;
+  color: #CBD0CE;
+}
+
+.newCommentsSection {
+  position: absolute;
+  top: 800px;
+  left: 30px;
+  width: 920px;
+  height: 180px;
+  background-color: #F7F7F7;
+}
+
+.commenterCircle {
+  position: absolute;
+  top : 10px;
+  left: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+.newComment {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  width: 800px;
+  height: 100px;
+  background-color: white;
+}
+
+.newComment p {
+  position: absolute;
+  left: 20px;
+  font-family: verdana;
+  font-size: 14px;
+  color: #CBD0CE;
+}
+
+.newCommentsSection > p {
+  position: absolute;
+  left: 90px;
+  top: 130px;
+  font-family: verdana;
+  font-size: 14px;
+  color: #CBD0CE;
+}
+
+.submitButton {
+  position: absolute;
+  top: 130px;
+  float: right;
+  right: 30px;
+  width: 100px;
+  height: 40px;
+  background-color: #6DBDB9;
+  border-radius: 5px;
+}
+
+.submitButton p {
+  position: absolute;
+  left: 25px;
+  top: -5px;
+  font-family: verdana;
+  font-size: 14px;
+  color: white;
+}
+
+.commentsHierarchy {
+  position: relative;
+  top: 1080px;
+  left: 190px;
+  width: 600px;
+  height: 500px;
+  line-height: 3;
+}
+
+
+.commentsHierarchy ul {
+  top: 45px;
+  border-left: 2px solid #F5F5F5;
+}
+
+
+.commentsHierarchy ul li {
+  list-style-type: none;
+}
+
+.commentsHierarchy ul:before {
+  content: "";
+  display: inline-block;
+  width: 160px;
+  position: relative;
+  left: -12px;
+}
+
+.commentsHierarchy ul li:before {
+  content: "";
+  display: inline-block;
+  width: 48px;
+  height: 128px;
+  top: 80p;
+  position: relative;
+  left: -12px;
+  border-top: 2px solid #F5F5F5;
+}
+
+.commentsHierarchy ul ul {
+    position: relative;
+    top: 50px;
+    left: -43px;
+
+}
+
+.commentsHierarchy .circleSectionUL {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: -63px;
+  top: -55px;
+}
+
+.commentsHierarchy .circleSectionList {
+  position: relative;
+  width: 30px;
+  height: 50px;
+  left: 50px;
+  top: -80px;
+}
+
+.userComment {
+  position: absolute;
+  left: 40px;
+  top: -40px;
+  width: 600px;
+  height: 80px;
+}
+
+.commenterName p {
+  position: absolute;
+  top: -20px;
+  color: #6DBDB9;
+  font-size: 16px;
+  font-family: Verdana;
+}
+
+.commentTime p {
+  position: absolute;
+  float: right;
+  right: 0px;
+  top: -5px;
+  color: #CBD0CE;
+  font-size: 12px;
+  font-family: Verdana;
+}
+
+.comment {
+  position: absolute;
+  top: 60px;
+  width: 600px;
+  height: 80px;
+}
+
+.comment p {
+  position: absolute;
+  top: -10px;
+  color: gray;
+  font-size: 12px;
+  font-family: Verdana;
+  line-height: 2;
+}
+
+.replyComment1 {
+  position: absolute;
+  top: 10px;
+  width: 500px;
+  left: 50px;
+  height: 160px;
+  border-top: 3px solid #F7F7F7;
+  border-bottom: 3px solid #F7F7F7;
+  background-color: #FBFBFB;
+}
+
+.replyComment1Header {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+}
+
+.replyComment1Content {
+  position: absolute;
+  top: 50px;
+  width: 500px;
+  height: 80px;
+}
+
+.replyComment1Content p {
+  position: absolute;
+  top: -10px;
+  color: gray;
+  font-size: 12px;
+  font-family: Verdana;
+  line-height: 2;
+}
+
+.replyComment1Tail {
+  position: absolute;
+  top: 130px;
+  width: 500px;
+  height: 30px;
+}
+
+.likeSign {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  color: gray;
+  font-size: 15px;
+}
+
+.likeSign p {
+  top: -22px;
+  left: 30px;
+  position: absolute;
+  font-size: 12px;
+  font-family: Verdana;
+  color: gray;
+}
+
+.flagSign {
+  position: absolute;
+  left: 80px;
+  width: 80px;
+  height: 30px;
+  color: gray;
+  font-size: 15px;
+}
+
+.flagSign p {
+  top: -22px;
+  left: 30px;
+  position: absolute;
+  font-size: 12px;
+  font-family: Verdana;
+  color: gray;
+}
+
+.replyComment2 {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 500px;
+  height: 100px;
+}
+
+.replyComment2Header {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+}
+
+.replyComment2Content {
+  position: absolute;
+  top: 50px;
+  width: 500px;
+  height: 50px;
+}
+
+.replyComment2Content p {
+  position: absolute;
+  top: -10px;
+  color: gray;
+  font-size: 12px;
+  font-family: Verdana;
+  line-height: 2;
+}
